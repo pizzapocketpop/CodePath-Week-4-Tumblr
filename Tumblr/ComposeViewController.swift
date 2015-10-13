@@ -66,39 +66,49 @@ class ComposeViewController: UIViewController {
     @IBAction func nevermindTap(sender: AnyObject) {
        
         
-//        UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.11 , options: .CurveEaseOut, animations: { () -> Void in
-//            self.photoButton.frame.origin.y = -96
-//            }) { (Bool) -> Void in
-//        }
-//        
-//        UIView.animateWithDuration(0.4, delay: 0.05, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
-//            self.chatButton.frame.origin.y = -96
-//            }) { (Bool) -> Void in
-//        }
-//        
-//        UIView.animateWithDuration(0.4, delay: 0.1, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
-//            self.quoteButton.frame.origin.y = -96
-//            }) { (Bool) -> Void in
-//        }
-//        
-//        UIView.animateWithDuration(0.4, delay: 0.15, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
-//            self.textButton.frame.origin.y = -96
-//            }) { (Bool) -> Void in
-//        }
-//        
-//        UIView.animateWithDuration(0.4, delay: 0.2, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
-//            self.linkButton.frame.origin.y = -96
-//            }) { (Bool) -> Void in
-//        }
-//        
-//        UIView.animateWithDuration(0.4, delay: 0.25, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
-//            self.videoButton.frame.origin.y = -96
-//            }) { (Bool) -> Void in
-//            
-//        }
+        UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.11 , options: .CurveEaseOut, animations: { () -> Void in
+            self.photoButton.frame.origin.y = -96
+            }) { (Bool) -> Void in
+        }
         
+        UIView.animateWithDuration(0.4, delay: 0.05, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
+            self.chatButton.frame.origin.y = -96
+            }) { (Bool) -> Void in
+        }
         
+        UIView.animateWithDuration(0.4, delay: 0.1, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
+            self.quoteButton.frame.origin.y = -96
+            }) { (Bool) -> Void in
+        }
+        
+        UIView.animateWithDuration(0.4, delay: 0.15, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
+            self.textButton.frame.origin.y = -96
+            }) { (Bool) -> Void in
+        }
+        
+        UIView.animateWithDuration(0.4, delay: 0.2, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
+            self.linkButton.frame.origin.y = -96
+            }) { (Bool) -> Void in
+        }
+        
+        UIView.animateWithDuration(0.4, delay: 0.25, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.1 , options: .CurveEaseOut, animations: { () -> Void in
+            self.videoButton.frame.origin.y = -96
+          
+            }) { (Bool) -> Void in
+        }
+ 
+       UIView.animateWithDuration(0.9, delay: 0.5, options: .CurveEaseOut, animations: { () -> Void in
+        self.videoButton.alpha = 0.0
+        self.textButton.alpha = 0.0
+        self.chatButton.alpha = 0.0
+        self.quoteButton.alpha = 0.0
+        self.linkButton.alpha = 0.0
+        self.photoButton.alpha = 0.0
         self.dismissViewControllerAnimated(true, completion: nil)
+        }) { (Bool) -> Void in
+            
+        }
+       
         
     }
     

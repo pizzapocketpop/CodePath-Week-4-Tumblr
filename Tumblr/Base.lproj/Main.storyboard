@@ -17,6 +17,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="explore_popup" id="uaF-oS-zxk">
+                                <rect key="frame" x="-4" y="452" width="185" height="77"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                             <view contentMode="scaleToFill" id="dzi-uB-ffI">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -66,12 +70,8 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.20000000000000001" green="0.25490196078431371" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.25490196079999999" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="explore_popup" id="uaF-oS-zxk">
-                                <rect key="frame" x="-4" y="452" width="185" height="77"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -162,7 +162,7 @@
         <!--Compose View Controller-->
         <scene sceneID="7zV-Zg-17n">
             <objects>
-                <viewController storyboardIdentifier="ComposeViewController" modalPresentationStyle="overCurrentContext" id="hEO-HC-KLM" customClass="ComposeViewController" customModule="Tumblr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ComposeViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="hEO-HC-KLM" customClass="ComposeViewController" customModule="Tumblr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZMa-6Y-2Ve">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -258,7 +258,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="trending_feed" id="LRW-As-VZ1">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1217"/>
+                                        <rect key="frame" x="0.0" y="12" width="320" height="1217"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
