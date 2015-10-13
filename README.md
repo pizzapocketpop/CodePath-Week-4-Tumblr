@@ -12,4 +12,4 @@
 
 **Walkthrough**
 
-![gif](http://i.imgur.com/38wnUV3.gif)
+![gif](http://i.imgur.com/H7VZZTE.gif)
